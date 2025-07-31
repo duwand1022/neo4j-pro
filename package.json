@@ -1,0 +1,16 @@
+{
+  "name": "neo4j-test",
+  "version": "1.0.0",
+  "description": "A simple Neo4j test application",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test-connection": "node test-connection.js",
+    "demo": "node demo.js"
+  },
+  "dependencies": {
+    "neo4j-driver": "^5.19.0",
+    "dotenv": "^16.4.5"
+  }
+}
