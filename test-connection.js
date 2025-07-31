@@ -1,8 +1,10 @@
 import neo4j from 'neo4j-driver';
 import dotenv from 'dotenv';
 
+
 // Load environment variables
 dotenv.config();
+
 
 const driver = neo4j.driver(
   process.env.NEO4J_URI,
